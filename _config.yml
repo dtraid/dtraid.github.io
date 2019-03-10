@@ -1,16 +1,2 @@
-remote_theme: willianjusten/will-jekyll-template
-
-# Site settings
-description: 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://dtraid.com" # the base hostname & protocol for your site 
-
-# User settings
-username: Diego Traíd
-user_description: 
-user_title: 
-email: diego@dtraid.com
-twitter_username: dtraid
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
-# disqus_username: lorem_ipsum
+remote_theme: jamigibbs/phantom
+nav_enable: false
