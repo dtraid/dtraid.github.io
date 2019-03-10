@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: willianjusten/will-jekyll-template
 title: dtraid
 description: 
 # logo: [Location of the logo]
