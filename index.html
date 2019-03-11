@@ -10,13 +10,15 @@
             color: black;
             text-decoration: none; /* no underline */
         }
-        div {
-            position: absolute;
-            z-index: 15;
-            top: 50%;
+        #wrap {
+            float: left;
+            position: relative;
             left: 50%;
-            margin: -100px 0 0 -150px;
-            display: table;
+        }
+        #content {
+            float: left;
+            position: relative;
+            left: -50%;
         }
         p {
             font-family: "Lucida Console", Monaco, monospace;
@@ -25,7 +27,8 @@
 </head>
 
 <body>
-    <div>
+    <div id="wrap">
+    <div id="content">
     <p>
         diego&nbsp;&nbsp;traid
         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/dtraid">@dtraid</a>
@@ -46,6 +49,6 @@
             document.write(m); //-->
         </script>
     </p>
-    </div>
+        </div></div>
 </body> </html>
 
